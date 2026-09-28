@@ -1013,10 +1013,10 @@
     "done": false,
     "reminder_enabled": true,
     "remind_at": "2026-09-28T06:00:00.000Z",
-    "reminder_sent": false,
+    "reminder_sent": true,
     "notes": "",
     "created_at": "2026-07-28T16:48:06.783Z",
-    "modified_at": "2026-08-31T17:48:05.141Z",
+    "modified_at": "2026-09-28T06:00:11.304Z",
     "completed_at": null
   },
   {
