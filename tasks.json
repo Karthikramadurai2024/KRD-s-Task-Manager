@@ -1140,21 +1140,6 @@
     "completed_at": "2026-08-24T06:28:42.594Z"
   },
   {
-    "id": 1786945868651.7207,
-    "title": "SAP Ticket on Custom_TS Issue",
-    "project": "Carrier",
-    "priority": "High",
-    "assigned_to": "Karthik",
-    "done": false,
-    "reminder_enabled": true,
-    "remind_at": "2026-08-21T07:44:00.000Z",
-    "reminder_sent": true,
-    "notes": "",
-    "created_at": "2026-08-17T05:51:08.651Z",
-    "modified_at": "2026-08-21T07:44:42.126Z",
-    "completed_at": null
-  },
-  {
     "id": 1787556681765.5056,
     "title": "Chinese Address in BP & Bank Details of BP",
     "project": "McKinsey",
