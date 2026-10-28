@@ -38,10 +38,10 @@
     "done": false,
     "reminder_enabled": true,
     "remind_at": "2026-10-28T06:50:00.000Z",
-    "reminder_sent": false,
+    "reminder_sent": true,
     "notes": "",
     "created_at": "2026-10-27T05:47:43.205Z",
-    "modified_at": "2026-10-27T05:47:43.205Z",
+    "modified_at": "2026-10-28T06:50:04.420Z",
     "completed_at": null
   }
 ]
