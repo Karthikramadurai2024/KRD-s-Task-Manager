@@ -1,20 +1,5 @@
 [
   {
-    "id": 1792047325008.9407,
-    "title": "Create Architecture Diagram for Integration",
-    "project": "Carrier",
-    "priority": "High",
-    "assigned_to": "Karthik",
-    "done": true,
-    "reminder_enabled": true,
-    "remind_at": "2026-10-15T10:30:00.000Z",
-    "reminder_sent": false,
-    "notes": "",
-    "created_at": "2026-10-15T06:55:25.008Z",
-    "modified_at": "2026-10-15T09:16:03.701Z",
-    "completed_at": "2026-10-15T09:16:03.701Z"
-  },
-  {
     "id": 1793080063509.0557,
     "title": "Create Monthly Incident for October",
     "project": "McKinsey",
