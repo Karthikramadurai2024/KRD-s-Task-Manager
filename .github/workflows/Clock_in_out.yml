@@ -1,0 +1,35 @@
+name: Clock In-Out Telegram Reminder
+
+on:
+  workflow_dispatch:
+    inputs:
+      reminder_type:
+        description: Which reminder to send
+        required: true
+        type: choice
+        options:
+          - clock_in
+          - clock_out
+          - test
+
+permissions:
+  contents: read
+
+jobs:
+  send-reminder:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Send Telegram reminder
+        run: node scripts/clock-reminder.js
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          REMINDER_TYPE: ${{ inputs.reminder_type }}
