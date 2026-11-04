@@ -24,9 +24,9 @@
     "reminder_enabled": false,
     "remind_at": null,
     "reminder_sent": false,
-    "notes": "",
+    "notes": "Fields should be populated in IDoc for N1,N2,N3 Segemnts. Sergio has to write to Hector. \n\nReminded Sergio",
     "created_at": "2026-11-04T12:23:42.937Z",
-    "modified_at": "2026-11-04T12:23:42.937Z",
+    "modified_at": "2026-11-04T12:25:09.928Z",
     "completed_at": null
   },
   {
