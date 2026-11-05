@@ -84,9 +84,9 @@
     "reminder_enabled": false,
     "remind_at": null,
     "reminder_sent": false,
-    "notes": "",
+    "notes": "Send all details except metadata. Roopendra should be sharing metadata",
     "created_at": "2026-11-05T06:33:22.521Z",
-    "modified_at": "2026-11-05T06:33:22.521Z",
+    "modified_at": "2026-11-05T16:44:29.190Z",
     "completed_at": null
   },
   {
